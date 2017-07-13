@@ -1,0 +1,18 @@
+{
+  "name": "@homenet/plugin-mqttpublish",
+  "version": "1.0.0",
+  "description": "Publishes all events on the event bus to MQTT",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Den Williams",
+  "license": "MIT",
+  "dependencies": {
+    "mqtt": "^2.9.0"
+  },
+  "devDependencies": {
+    "@homenet/core-tsd": "^4.0.0-beta.8b",
+    "@types/node": "^7.0.31"
+  }
+}
