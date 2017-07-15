@@ -22,10 +22,11 @@ export function create(annotate: any): { MqttPublisherPluginLoader: new(...args:
 
     load() : void {
       this.logger.info('Loading MQTT publisher');
-      this.events.onAny((e) => {
+      this.events.onAny((e, x) => {
+        console.log(e, x);
         const { name, data } = e;
-        const topic = name.replace()
-        this.mqttClient.publish()
+        const topic = name.replace('.', '/');
+        this.mqttClient.publish(topic, e);
       });
     }
 
