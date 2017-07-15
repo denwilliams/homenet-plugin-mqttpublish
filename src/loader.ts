@@ -25,7 +25,7 @@ export function create(annotate: any): { MqttPublisherPluginLoader: new(...args:
       this.events.onAny((name, e) => {
         const { data } = e;
         const topic = name.replace(/\./g, '/');
-        this.mqttClient.publish(topic, e);
+        this.mqttClient.publish(topic, JSON.stringify(data));
       });
     }
 
