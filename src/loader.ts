@@ -30,7 +30,7 @@ export function create(annotate: any): { MqttPublisherPluginLoader: new(...args:
     }
 
     private init() : void {
-      this.logger.info('Starting MQTT plugin');
+      this.logger.info('Starting MQTT publisher');
 
       const mqttConfig = this.config.mqtt || {};
       const host = mqttConfig.host || 'localhost';

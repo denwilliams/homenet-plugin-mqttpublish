@@ -8,6 +8,16 @@
   },
   "author": "Den Williams",
   "license": "MIT",
+  "homenet4": {
+    "plugins": [
+      "MqttPublisherPluginLoader"
+    ]
+  },
+  "keywords": [
+    "mqtt",
+    "homenet",
+    "homenet4-plugin"
+  ],
   "dependencies": {
     "mqtt": "^2.9.0"
   },
