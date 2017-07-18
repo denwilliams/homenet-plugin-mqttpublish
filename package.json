@@ -1,6 +1,6 @@
 {
   "name": "@homenet/plugin-mqttpublish",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Publishes all events on the event bus to MQTT",
   "main": "lib/index.js",
   "scripts": {
