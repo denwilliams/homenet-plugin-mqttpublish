@@ -1,0 +1,12 @@
+language: node_js
+node_js:
+- '4'
+deploy:
+  matrix:
+  - provider: npm
+    email: work@denwilliams.net
+    on:
+      tags: true
+      repo: denwilliams/homenet-plugin-mqttpublish
+  api_key:
+    secure: obZCn1qqevqrEcOwud1N6okjKr/Ee/LtAW8D4fmJu2wDuzoOKEwkB8zC92GLFuaw+urb4CUOXukpK2AKh6PcXViMqStk49n4tLHHTyD41kidPeA7K81hflcv3mukTrRaC5ieIYw675W429MOjIDYVMp17h0eZ170z0SwVh9cQ93kgEYdh79543jzc2h2yRFA/G3UNNSnREp0RBZ3am6Bh9gT9dp7BIabSEdLj8vbcox5jZdR/rOVvQwLOKPpOPihFqgGCM3Hr0NAouyByHxsi8rwXN9NaE/Rf8zQNooTcqzVA22VZGYRAclfuKTvBIK7uaUy+pFzLBmR5VSf4PJR/dL6Gbd+XNlu+SNFn1kjodWD8xlERvR58Yg4dQvOCHgknL7+wnCSNCcMtqYw7JSPzgeqhf670332OxtdA5Mew4uwUqaYaSEyW585HrBx5bggekBs2O3Ym1ft/DGrN0+p/ch0ANUv8UiDhtBv2JjAFPPfVPcFnUdLEIyYyt4Ih7rIm4Zf/TiAbm6t37CdRLsAdacUzYSJxrH/BA2giapnENv83i5iToElY3Lbtb4r23ZW5Rwam477KM1fL1Q10mcPDmyH/RGU8HACw70/kDcaaYdZQKT6BcimFSNjLe4sAcmJJhe7QYkyLEQE6FkwC16Ox5WI6zMFi0V/ZI3UQJDzk5Y=
