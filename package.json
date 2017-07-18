@@ -4,7 +4,7 @@
   "description": "Publishes all events on the event bus to MQTT",
   "main": "lib/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\""
   },
   "author": "Den Williams",
   "license": "MIT",
